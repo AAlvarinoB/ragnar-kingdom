@@ -1,0 +1,18 @@
+.background_char {
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.background_container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+

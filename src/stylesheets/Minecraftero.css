@@ -1,0 +1,16 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url('../fonts/Minecraftero.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'Minecraft', sans-serif;
+}
+
+.minecraftia-contorno {
+    font-family: 'Minecraft', sans-serif;
+    color: white;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+}

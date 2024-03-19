@@ -1,0 +1,27 @@
+.all_container {
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-background {
+    background-size: cover;
+    background-position: center;
+    width: 455px;
+    height: 145px;
+    background-image: url("../img/minecraft no clic.png");
+    transform: scale(0.8);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.start-background:hover {
+    background-image: url("../img/minecraftclick.png");
+}
+
+.start-background:active {
+    transform: scale(0.7);
+}
+
